@@ -1,7 +1,7 @@
 workflows:
-  build_apk:
-    name: Build Android APK
-    instance_type: linux # استخدام بيئة Linux المجانية
+  android-build:
+    name: Android Build (Free Plan)
+    max_build_duration: 60
     environment:
       flutter: stable
     scripts:
