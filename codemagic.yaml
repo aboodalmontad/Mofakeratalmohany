@@ -4,7 +4,7 @@ workflows:
     max_build_duration: 30
     environment:
       flutter: stable
-    working_directory: Mofakeratalmohany
+    working_directory: Mofakeratalmohany  # <== هذا هو الحل
     scripts:
       - name: Get dependencies
         script: flutter pub get
